@@ -26,5 +26,9 @@ public class MyStack {
 	public INode pop() {
 		return myLinkedList.pop();
 	}
-	
+
+	public void Enqueue(INode myNode) {
+		myLinkedList.append(myNode);
+		
+	}
 }
