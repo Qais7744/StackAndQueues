@@ -13,14 +13,6 @@ public class MyStackTest {
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(70);
 		MyStack myStack= new MyStack();
-<<<<<<< HEAD
-		myStack.push(myFirstNode);
-		myStack.push(mySecondNode);
-		myStack.push(myThirdNode);
-		INode pop = myStack.pop();
-		myStack.printStack();
-		Assert.assertEquals(myThirdNode,pop);
-=======
 		myStack.Enqueue(myFirstNode);
 		myStack.Enqueue(mySecondNode);
 		myStack.Enqueue(myThirdNode);
@@ -28,7 +20,6 @@ public class MyStackTest {
 		myStack.printStack();
 		Assert.assertEquals(myFirstNode, peak);
 		
->>>>>>> UC3_EnqueueMethode
 	}
 	
 }

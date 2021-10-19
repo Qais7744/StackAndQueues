@@ -27,11 +27,8 @@ public class MyStack {
 		return myLinkedList.pop();
 	}
 
-<<<<<<< HEAD
-=======
 	public void Enqueue(INode myNode) {
 		myLinkedList.append(myNode);
 		
 	}
->>>>>>> UC3_EnqueueMethode
 }
