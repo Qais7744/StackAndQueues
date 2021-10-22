@@ -13,9 +13,9 @@ public class MyQueueTest {
 		MyNode<Integer> mySecondNode = new MyNode<>(30);
 		MyNode<Integer> myThirdNode = new MyNode<>(70);
 		MyQueue myQueue= new MyQueue();
-		myQueue.Enqueue(myFirstNode);
-		myQueue.Enqueue(mySecondNode);
-		myQueue.Enqueue(myThirdNode);
+		myQueue.enqueue(myFirstNode);
+		myQueue.enqueue(mySecondNode);
+		myQueue.enqueue(myThirdNode);
 		INode peak = myQueue.peak();
 		myQueue.printQueue();
 		Assert.assertEquals(myFirstNode, peak);

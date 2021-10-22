@@ -19,7 +19,7 @@ public class MyQueue {
 		return myLinkedList.head;
 	}
 
-	public void Enqueue(INode myNode) {
+	public void enqueue(INode myNode) {
 		myLinkedList.enqueue(myNode);
 	}
 }
