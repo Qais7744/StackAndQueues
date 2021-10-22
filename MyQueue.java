@@ -32,17 +32,12 @@ public class MyQueue {
 		this.myLinkedList = new MyLinkedList();
 	}
 
-	public void push(INode myNode) {
-		myLinkedList.add(myNode);
-	}
-
 	public void printQueue() {
 		myLinkedList.printMyNodes();
 	}
 
 	public void enqueue(INode myNode) {
 		myLinkedList.enqueue(myNode);
-
 	}
 
 	public INode dequeue() {
