@@ -17,7 +17,6 @@ public class MyQueue {
 
 	public void enqueue(INode myNode) {
 		myLinkedList.enqueue(myNode);
-
 	}
 
 	public INode dequeue() {
